@@ -49,6 +49,10 @@ img {
     padding: 12px 35px;
 }
 
+.bg-info {
+    background: #f5ebdc !important;
+}
+
 /*=======================
 * Navbar
 ========================*/
@@ -69,8 +73,13 @@ img {
 }
 
 /*=======================
-* silder area
+* about area
 ========================*/
-#about {
+#about,
+#work {
     padding-top: 110px;
 }
+
+/*=======================
+* work area
+========================*/
