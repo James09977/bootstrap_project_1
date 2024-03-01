@@ -54,6 +54,16 @@ img {
 }
 
 /*=======================
+* Section padding
+========================*/
+#about,
+#work,
+#service {
+    padding-top: 110px;
+}
+
+
+/*=======================
 * Navbar
 ========================*/
 #main_menu nav {
@@ -76,10 +86,11 @@ img {
 * about area
 ========================*/
 #about,
-#work {
+#work,
+#service {
     padding-top: 110px;
 }
 
 /*=======================
-* work area
+* Responsive
 ========================*/
