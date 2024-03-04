@@ -18,6 +18,17 @@ h2 {
     font-size: 60px;
 }
 
+h3 {
+    color: #501314;
+    font-size: 25px;
+}
+
+h4 {
+    color: #501314;
+    font-size: 25px;
+    font-weight: 500px;
+}
+
 h3,
 h4,
 h5,
@@ -75,6 +86,10 @@ img {
     margin-left: 15px;
 }
 
+#mainmenu a.active {
+    color: #d62300;
+}
+
 /*=======================
 * silder area
 ========================*/
@@ -92,5 +107,60 @@ img {
 }
 
 /*=======================
+* Contact area style
+========================*/
+#contact {
+    background: url(img/map.jpg);
+
+}
+
+
+/*=======================
+* Footer area style
+========================*/
+#footer ul li a {
+    text-decoration: none;
+    color: #262626;
+    font-weight: 500;
+}
+
+#footer .social li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#footer form .btn.btn-info {
+    border-radius: 0;
+}
+
+/*=======================
 * Responsive
 ========================*/
+@media only screen and (max-width:600px) {
+    #main_menu img {
+        width: 200px;
+    }
+
+    #slider {
+        padding-top: 65px;
+    }
+
+
+    #about,
+    #work,
+    #service {
+        padding-top: 30px;
+    }
+
+    h2 {
+
+        font-size: 35px;
+        text-transform: uppercase;
+    }
+
+    h6 {
+        font-size: 18px;
+    }
+
+
+}
